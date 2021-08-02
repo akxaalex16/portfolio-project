@@ -1,5 +1,5 @@
 :root {
-  --btn-background-color: #6c63ff;
+  --btn-color: #6c63ff;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -13,12 +13,13 @@ h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 96px;
+  line-height: 1.5;
 }
 
 h2 {
   font-size: 24px;
   font-weight: normal;
-  line-height: 2;
+  line-height: 1.5;
   color: #272142;
 }
 
@@ -36,9 +37,68 @@ p {
 
 .btn-style {
   color: white;
-  background: var(--btn-background-color);
+  background: var(--btn-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: all 200ms ease-in-out;
+}
+
+.btn-style:hover {
+  color: var(--btn-color);
+  background: white;
+  border: 1px solid var(--btn-color);
+}
+
+.btn-style-outline {
+  color: var(--btn-color);
+  border: 1px solid var(--btn-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  transition: all 200ms ease-in-out;
+}
+
+.btn-style-outline:hover {
+  color: white;
+  background: var(--btn-color);
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.app-title {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.app-description {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+  .app-title {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
 }
