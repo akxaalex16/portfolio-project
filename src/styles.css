@@ -29,10 +29,14 @@ p {
   margin: 0;
 }
 
+img {
+  margin-left: 30px;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 130px 20px;
 }
 
 .btn-style {
@@ -84,6 +88,10 @@ p {
 
 .project-description {
   padding: 120px 60px;
+}
+
+.weather-pic {
+  margin-left: 50px;
 }
 
 @media (max-width: 900px) {
