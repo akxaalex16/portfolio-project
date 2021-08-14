@@ -29,14 +29,37 @@ p {
   margin: 0;
 }
 
-img {
+.weatherapp-pic,
+.dictionaryapp-pic {
   margin-left: 30px;
 }
 
+.profile-pic {
+  height: 500px;
+}
 .hero {
   background: var(--secondary-color);
   text-align: center;
   padding: 130px 20px;
+}
+
+.about-section {
+  padding: 130px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+}
+
+.about-section-content {
+  margin: 30px;
 }
 
 .btn-style {
@@ -101,12 +124,16 @@ img {
   }
   h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 56px;
   }
   .app-title {
     font-size: 44px;
   }
   .hero {
     padding: 80px 20px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
