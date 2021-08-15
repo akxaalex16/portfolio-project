@@ -43,23 +43,30 @@ p {
   padding: 130px 20px;
 }
 
-.about-section {
+.content-container {
   padding: 130px 20px;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
   font-weight: bold;
 }
 
-.about-section-content {
+.content {
   margin: 30px;
+}
+
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+  margin: 20px 0;
 }
 
 .btn-style {
@@ -117,6 +124,14 @@ p {
   margin-left: 50px;
 }
 
+.work-subtitle {
+  font-size: 14px;
+}
+
+.work-images {
+  background: var(--secondary-color);
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
@@ -132,7 +147,7 @@ p {
   .hero {
     padding: 80px 20px;
   }
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }
