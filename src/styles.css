@@ -132,6 +132,16 @@ p {
   background: var(--secondary-color);
 }
 
+.contact-info {
+  text-decoration: none;
+  color: violet;
+}
+
+.contact-content {
+  background: var(--secondary-color);
+  padding: 20px 0px 20px 50px;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
@@ -150,5 +160,11 @@ p {
   .content {
     text-align: center;
     padding: 0;
+  }
+  .contact-content {
+    padding: 0;
+  }
+  .work-images {
+    padding: 20px 90px 20px 0px;
   }
 }
