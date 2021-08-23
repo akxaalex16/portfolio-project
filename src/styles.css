@@ -23,6 +23,10 @@ h2 {
   color: #272142;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-weight: bold;
   font-size: 36px;
@@ -137,6 +141,10 @@ p {
   color: violet;
 }
 
+.contact-info:hover {
+  color: var(--btn-color);
+}
+
 .contact-content {
   background: var(--secondary-color);
   padding: 20px 0px 20px 50px;
@@ -184,6 +192,46 @@ li a:hover {
   color: var(--btn-color);
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+  margin: 0 50px 0 50px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--btn-color);
+}
+
+footer .social a {
+  margin: 0 20px;
+  color: var(--btn-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social a:hover {
+  color: white;
+  background: var(--btn-color);
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
@@ -192,6 +240,9 @@ li a:hover {
   h1 {
     font-size: 44px;
     line-height: 56px;
+  }
+  h4 {
+    font-size: 26px;
   }
   .app-title {
     font-size: 44px;
@@ -217,5 +268,8 @@ li a:hover {
   }
   nav li {
     line-height: 60px;
+  }
+  footer .contact-box {
+    padding: 30px;
   }
 }
