@@ -232,7 +232,7 @@ footer .social a:hover {
   background: var(--btn-color);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 760px) {
   .project-description {
     padding: 0;
     text-align: center;
