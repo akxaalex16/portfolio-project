@@ -41,6 +41,7 @@ h4 {
 .profile-pic {
   height: 500px;
 }
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -126,14 +127,6 @@ h4 {
 
 .weather-pic {
   margin-left: 50px;
-}
-
-.work-subtitle {
-  font-size: 14px;
-}
-
-.work-images {
-  background: var(--secondary-color);
 }
 
 .contact-info {
